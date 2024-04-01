@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "todo-tree.tree.scanMode": "workspace"
+}

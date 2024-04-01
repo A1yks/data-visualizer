@@ -1,0 +1,16 @@
+.animation {
+    padding-top: 0;
+    transition:
+        opacity 0.2s,
+        padding 0.2s;
+}
+
+.animation.preEnter,
+.animation.exiting {
+    opacity: 0;
+    padding-top: 20px;
+}
+
+.animation.exited {
+    display: none;
+}

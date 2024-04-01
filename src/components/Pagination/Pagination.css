@@ -1,0 +1,15 @@
+.pagination-btn {
+    @apply button-secondary rounded-none;
+}
+
+.pagination-prev-btn {
+    @apply button-secondary rounded-none rounded-s-lg;
+}
+
+.pagination-next-btn {
+    @apply button-secondary rounded-none rounded-e-lg;
+}
+
+.pagination-active-btn {
+    @apply bg-blue-50 hover:bg-blue-50;
+}
