@@ -7,6 +7,7 @@ const tableDataSchema = new Schema<ITableData>(
         type: {
             type: String,
             required: true,
+            index: true,
         },
         data: {
             type: Schema.Types.Mixed,
